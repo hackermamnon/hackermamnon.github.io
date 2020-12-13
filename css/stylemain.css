@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.containerslogan {
+    width: 1350px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.containerslogan:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    background-color: #fff;
+    height: 45px;
+    width: 1350px;
+    z-index: 1;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.intro {
+    background: url(/img/banner3.jpg);
+    background-size: cover;
+    height: 635px;
+    text-align: left;
+    padding-top: 180px;
+    border: #fff;
+}
+
+.container3 {
+    width: 220px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.intro .logo1 {
+    height: 140px;
+    width: 110px;
+    position: absolute;
+}
+
+.intro .logo2 {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 70px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 75px;
+    /* Độ cao dòng */
+}
+
+.intro p {
+    padding-top: 15px;
+    color: #f5f6fa;
+    font-size: 24px;
+    font-family: "Cabin", sans-serif;
+}
+
+.slogan {
+    float: left;
+    font-family: "Pacifico", cursive;
+    font-size: 27px;
+    color: #0984e3;
+    margin-left: 50px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.nav-li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Cabin", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.nav-li-a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.nav-li-a:hover::after {
+    width: 100%;
+    transition: width .2s;
+}
+
+.IT {
+    margin-top: 30px;
+    border: 1px;
+    border-color: #000;
+    text-align: center;
+}
+
+.IT h3 {
+    font-family: "Lobster", cursive;
+    font-size: 60px;
+    color: #1abc9c;
+}
+
+.ITdefinition {
+    font-size: 40px;
+    line-height: 29px;
+    font-family: "Cabin", sans-serif;
+}
+
+.paraIT {
+    margin-top: 30px;
+}
+
+.paraIT-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.concentration h3 {
+    font-family: "Lobster", cursive;
+    font-size: 50px;
+    color: #1abc9c;
+    text-align: center;
+    background: url(/img/redbrush.png) no-repeat 1.5%;
+}
+
+.bg-IT {
+    background: url(/img/bluebrush.png) no-repeat 15%;
+}
+
+.ITpic {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.ITpic:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pic1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+}
+
+:root {
+    /* Base font size */
+    font-size: 10px;
+}
+
+.container4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.container4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    margin: 1rem -1rem;
+}
+
+.gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 24rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.15);
+}
+
+@supports (display: grid) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-gap: 2rem;
+    }
+    .gallery,
+    .gallery-item {
+        margin: 0;
+    }
+}
+
+.cardcover {
+    margin-left: 120px;
+}
+
+.card {
+    background: #fff;
+    display: inline;
+    height: 330px;
+    position: relative;
+    width: 250px;
+    float: left;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 250px 150px;
+    grid-template-areas: "image""text";
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("/img/software.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image2 {
+    grid-area: image;
+    background: url("/img/network2.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image3 {
+    grid-area: image;
+    background: url("/img/system.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.card-text h2 {
+    margin-top: 0px;
+    font-size: 33px;
+    color: #1abc9c;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+    height: 40px;
+    background-color: #1abc9c;
+}
+
+.footer h3 {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.container5 {
+    width: 500px;
+    float: right;
+    margin-top: 150px;
+    text-align: justify;
+    margin-right: 90px;
+}
+
+.container5:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title-1 {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.title-2 {
+    font-size: 24px;
+    font-family: "Cabin", sans-serif;
+}
+
+.paraIT-3 {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container6 {
+    width: 550px;
+    margin-left: 50px;
+    padding-top: 70px;
+}
+
+.pic3 {
+    float: right;
+    height: 400px;
+}
+
+.business {
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.container7 {
+    padding-left: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container7:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container8 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container8:after {
+    content: "";
+    display: table;
+    clear: both;
+}
