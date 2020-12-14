@@ -13,6 +13,7 @@
 a {
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 .container {
@@ -68,7 +69,7 @@ a {
     border: #fff;
 }
 
-.container3 {
+.container7 {
     width: 220px;
     height: 150px;
     margin-bottom: 30px;
@@ -106,8 +107,11 @@ a {
     float: left;
     font-family: "Pacifico", cursive;
     font-size: 27px;
-    color: #0984e3;
     margin-left: 20px;
+}
+
+.slogan a {
+    color: #0984e3;
 }
 
 .logo-icon {
@@ -144,14 +148,14 @@ a {
     transition: width .2s;
 }
 
-.IT {
+.definition {
     margin-top: 30px;
     border: 1px;
     border-color: #000;
     text-align: center;
 }
 
-.IT h3 {
+.definition h3 {
     font-family: "Lobster", cursive;
     font-size: 60px;
     color: #1abc9c;
@@ -183,7 +187,7 @@ a {
 }
 
 .bg-IT {
-    background: url(/img/bluebrush.png) no-repeat 15%;
+    background: url(/img/bluebrush.png) no-repeat 20%;
 }
 
 .ITpic {
@@ -210,14 +214,14 @@ a {
     font-size: 10px;
 }
 
-.container4 {
+.image-layout {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 1050px;
     margin: 0 auto;
 }
 
-.container4:after {
+.image-layout:after {
     content: "";
     display: table;
     clear: both;
@@ -333,18 +337,6 @@ a {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-.footer {
-    height: 40px;
-    background-color: #1abc9c;
-}
-
-.footer h3 {
-    text-align: left;
-    font-size: 25px;
-    padding-top: 10px;
-    padding-left: 50px;
-}
-
 .container5 {
     width: 500px;
     float: right;
@@ -394,25 +386,42 @@ a {
     padding-bottom: 5px;
 }
 
-.container7 {
+.container3 {
     padding-left: 80px;
     width: 1200px;
     margin: 0 auto;
 }
 
-.container7:after {
+.container3:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.container8 {
+.container4 {
     width: 1200px;
     margin: 0 auto;
 }
 
-.container8:after {
+.container4:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.title-footer {
+    font-size: 28px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+footer {
+    padding-top: 10px;
+    height: 30px;
+    background-color: #1a2428;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    align-items: center;
+    padding-left: 70px;
+    font-family: "Josefin Sans", sans-serif;
 }
