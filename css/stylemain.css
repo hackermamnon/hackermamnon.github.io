@@ -30,6 +30,7 @@ a {
     width: 1350px;
     margin: 0 auto;
     height: 30px;
+    padding-left: 45px;
 }
 
 .containerslogan:after {
@@ -117,7 +118,7 @@ a {
 .nav {
     float: right;
     font-size: 20px;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 .nav-li {
