@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+footer {
+    background-color: #1a2428;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Header */
+
+.containerslogan {
+    width: 1350px;
+    margin: 0 auto;
+    height: 30px;
+    padding-left: 45px;
+    padding-top: 3px;
+}
+
+.containerslogan:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    background-color: #fff;
+    height: 45px;
+    width: 1350px;
+    z-index: 1;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.nav-li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Cabin", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.nav-li-a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin-bottom: 0;
+}
+
+.nav-li-a:hover::after {
+    width: 100%;
+    transition: width .2s;
+}
+
+.slogan {
+    float: left;
+    font-family: "Pacifico", cursive;
+    font-size: 29px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.slogan a {
+    color: #0984e3;
+    margin-left: 10px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 180px;
+    padding-left: 100px;
+    padding-right: 650px;
+    background-image: url(/img/What-is-Cyber-Security.jpg);
+    color: white;
+    text-align: start;
+    background-size: cover;
+}
+
+.container h1 {
+    font-size: 59px;
+    line-height: normal;
+    color: white;
+    padding-bottom: 5px;
+    font-family: "Lobster", cursive;
+}
+
+.container h2 {
+    font-size: 40px;
+    line-height: 25px;
+    color: rgb(1, 202, 252);
+    font-family: "Lobster", cursive;
+    margin-bottom: 35px;
+}
+
+.content1 h5 {
+    color: rgb(79, 202, 255);
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.content1 h4 {
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 600px;
+    font-size: 28px;
+}
+
+.content1 p {
+    margin-left: 100px;
+    font-size: 18px;
+    margin-right: 750px;
+    padding-top: 40px;
+}
+
+#image1 {
+    margin-top: 20px;
+    margin-right: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 500px;
+    height: 350px;
+    float: right;
+}
+
+.content1:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.content2 h3 {
+    color: rgb(79, 202, 255);
+    margin-bottom: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    text-align: end;
+}
+
+.para {
+    margin-left: 700px;
+    font-size: 18px;
+    margin-right: 100px;
+    float: right;
+    margin-top: 80px;
+}
+
+#image2 {
+    height: 350px;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 700px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-bottom: 30px;
+    margin-top: -230px;
+}
+
+.para:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.content3 h5 {
+    color: rgb(79, 202, 255);
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.content3 h4 {
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 500px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.logo1 {
+    height: 300px;
+    width: 350px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+/*.col{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color:#1a2428;
+    margin-top:0px;
+}*/
+
+.col {
+    max-width: 33.3333%;
+    flex: 0 0 33.3333%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content3 {
+    background: #1a2428;
+}
+
+.col {
+    background-color: #1a2428;
+}
+
+.col h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0px;
+    color: aqua;
+}
+
+.content4 h3 {
+    color: rgb(79, 202, 255);
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.content4 p {
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+#image3 {
+    margin-right: 250px;
+    float: right;
+    margin-top: 50px;
+}
+
+#images {
+    height: 400px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+#images1 {
+    float: right;
+    height: 303px;
+    width: 324px;
+    margin-right: -300px;
+    margin-top: 50px;
+}
+
+#images2 {
+    width: 1000px;
+    margin-left: 170px;
+}
+
+#extended {
+    background: grey;
+    color: white;
+    padding: 10px 0;
+}
+
+.content5 h3 {
+    color: rgb(79, 202, 255);
+    margin-bottom: 0px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.content5 p {
+    margin-left: 70px;
+    margin-right: 175px;
+}
+
+.content5 li:nth-child(odd) {
+    background: rgb(79, 202, 255);
+}
+
+.content5 li {
+    padding: 10px;
+}
+
+#images3 {
+    width: 500px;
+    height: 350px;
+}
+
+.contest4 {
+    margin-right: 800px;
+    padding-top: 20px;
+}
+
+.malware {
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    margin-left: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.container4 {
+    padding-left: 600px;
+    padding-right: 200px;
+    margin-top: 100px;
+    padding-bottom: 0;
+}
+
+.contests4 {
+    padding-right: 500px;
+}
+
+#images {
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    left: 700px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.extended {
+    margin-top: 50px;
+}
+
+.ulist {
+    padding-top: 25px;
+}
+
+.hacking {
+    position: absolute;
+    right: 400px;
+    top: 2320px;
+}
+
+.contents4 {
+    padding-right: 650px;
+}
+
+.ulist2 {
+    margin-left: 60px;
+}
+
+.ulist3 {
+    margin-right: 200px;
+}
