@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
+
+.containerslogan {
+    width: 1500px;
+    margin: 0 auto;
+    height: 45px;
+    padding-left: 45px;
+}
+
+.containerslogan:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    background-color: #fff;
+    height: 45px;
+    width: 1356px;
+    z-index: 1;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-left: 90px;
+    width: 1000px;
+    padding-top: 10px;
+}
+
+.nav-li {
+    font-family: "Cabin", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-li-a-1 {
+    width: 190px;
+}
+
+.nav-li-a-2 {
+    width: 195px;
+}
+
+.nav-li-a-3 {
+    width: 160px;
+}
+
+.nav-li-a-4 {
+    width: 110px;
+}
+
+.nav-li-a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin-bottom: 0;
+}
+
+.nav-li-a:hover::after {
+    width: 100%;
+    transition: width .2s;
+}
+
+.slogan {
+    float: left;
+    font-family: "Pacifico", cursive;
+    font-size: 28px;
+    margin-left: 20px;
+    width: 290px;
+    padding-top: 6px;
+}
+
+.slogan a {
+    color: #0984e3;
+    height: 40px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/anh.jpg);
+    text-align: center;
+    padding-top: 50px;
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    opacity: 1;
+    object-fit: cover;
+    justify-items: center;
+}
+
+.background-1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 150px;
+    flex-wrap: wrap;
+}
+
+.background-1 h3 {
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.background-1 h3:hover {
+    letter-spacing: 6px;
+}
+
+.background-1 h1:hover {
+    padding-top: 30px;
+    color: chartreuse;
+}
+
+.background-1 h1 {
+    padding-top: 30px;
+}
+
+.background-1 p {
+    font-size: 25px;
+    line-height: 27px;
+    padding-top: 30px;
+}
+
+
+/* 
+.header {
+    padding-top: 35px;
+} */
+
+.gt {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.tieude {
+    padding-top: 50px;
+}
+
+.wrapper {
+    background-color: #81c644;
+}
+
+.wrapper h1 {
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.team .team_member {
+    background: rgba(228, 222, 222, 0.973);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    border-radius: 10px;
+}
+
+.team .team_member h3 {
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role {
+    color: rgb(8, 8, 8);
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img {
+    display: block;
+    opacity: 1;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.team .team_member .thongtin- {
+    font-size: 12px;
+    color: rgb(40, 44, 35);
+}
+
+.que {
+    flex-wrap: wrap;
+}
+
+.thongtin- {
+    list-style: none;
+}
+
+.team h3:hover {
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.truong {
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hai {
+    display: block;
+    opacity: 1;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+
+.anh {
+    display: block;
+    opacity: 1;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+
+.huong {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+.sau {
+    margin: 30px;
+    text-align: center;
+}
+
+.sau h3 {
+    text-align: center;
+}
+
+.quequan {
+    text-align: center;
+    font-size: 30px;
+    padding: 35px 0;
+}
+
+.col-md-3 h3 {
+    padding-right: 50px;
+}
+
+.toan {
+    background-color: #81c644;
+}
+
+.quequan:hover {
+    letter-spacing: 2px;
+}
+
+.truong:hover {
+    letter-spacing: 2px;
+}
+
+.ab {
+    padding-right: 13px;
+}
+
+.tieude:hover {
+    letter-spacing: 2px;
+}
+
+footer {
+    padding-top: 10px;
+    height: 30px;
+    background-color: #1a2428;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1355px;
+    padding-left: 70px;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e8d86;
+}
