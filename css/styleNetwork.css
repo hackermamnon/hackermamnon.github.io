@@ -235,6 +235,11 @@ a {
     padding: 20px;
     margin-left: 55px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.logo1:hover {
+    transform: scale(1.10);
 }
 
 .img-responsive {
