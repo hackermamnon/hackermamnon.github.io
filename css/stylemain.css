@@ -222,7 +222,7 @@ a {
 .image-layout {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 1050px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -258,7 +258,7 @@ a {
 }
 
 .gallery-image:hover {
-    transform: scale(1.15);
+    transform: scale(1.20);
 }
 
 @supports (display: grid) {
@@ -413,8 +413,8 @@ a {
     padding-left: 80px;
     width: 1200px;
     margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 110px;
 }
 
 .container3:after {
@@ -426,7 +426,8 @@ a {
 .container4 {
     width: 1230px;
     margin: 0 auto;
-    margin-bottom: 90px;
+    margin-top: 160px;
+    margin-bottom: 130px;
 }
 
 .container4:after {
