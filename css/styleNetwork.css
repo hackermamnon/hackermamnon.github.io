@@ -22,10 +22,15 @@ body {
 }
 
 footer {
+    height: 30px;
     background-color: #1a2428;
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1355px;
+    padding-left: 70px;
 }
 
 
