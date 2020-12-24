@@ -177,6 +177,7 @@ a {
 
 .tieude {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .wrapper {
@@ -225,11 +226,11 @@ a {
 
 .team .team_member .team_img {
     position: absolute;
-    top: -50px;
+    top: -90px;
     left: 50%;
     transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background: #fff;
 }
@@ -238,8 +239,8 @@ a {
     display: block;
     opacity: 1;
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding: 5px;
     border-radius: 50%;
 }
