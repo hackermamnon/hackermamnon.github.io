@@ -102,7 +102,7 @@ a {
 }
 
 .modau {
-    background-image: url('image/background\ modau.jpg');
+    background-image: url('/img/backgroundmodau.jpg');
     padding: 120px;
     background-size: cover;
 }
