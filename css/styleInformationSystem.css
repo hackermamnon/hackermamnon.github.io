@@ -6,21 +6,343 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    /*background-repeat:no-repeat;
+    background-size: cover;*/
+    margin: 0;
+    line-height: 2em;
+    background-repeat: repeat-y;
+}
+
+.modau {
+    background-image: url('/img/backgroundmodau-6.png');
+    padding-bottom: 420px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-size: cover;
+}
+
+.tieude {
+    /*border-style:double;
+    border-top: 1px black solid ;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    border-radius: 10px;*/
+    color: #00FFFF;
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+.ndtieude {
+    padding-top: 2px;
+    padding-left: 40px;
+    color: white;
+    /*border-style:double;
+    border-top: 5px blueviolet solid ;
+    border-bottom: 5px blue solid;
+    border-right: 2px blue solid;
+    border-left: 2px blueviolet solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: url('https://getdrive.net/wp-content/uploads/2020/03/Mau-background-mau-xanh-ngoc-tuoi-mat.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    color: white;
-    line-height: 2em;
+    padding:20px;
+    margin:auto;*/
+    float: left;
+    font-size: 17px;
+}
+
+.tieude-1 {
+    padding-left: 760px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-2 {
+    padding-left: 400px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-3 {
+    padding-left: 450px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-4 {
+    padding-left: 180px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-4 h3 {
+    font-size: 50px;
+}
+
+.tieude-5 {
+    padding-left: 650px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-6 {
+    padding-left: 180px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.tieude-7 {
+    padding-left: 680px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
 }
 
 
-/* Header */
+/*h1{
+    
+    float:left;
+    font-size: 40px;
+    color:blue;
+    text-align: left;
+   
+    
+    
+}
+h2{
+    text-align: center;
+    color:blue;  
+}*/
+
+h3 {
+    padding-left: 50px;
+    color: blue;
+}
+
+.phan-1 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: black;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px blueviolet solid;
+    border-bottom: 2px blue solid;
+    border-right: 2px red solid;
+    border-left: 2px yellow solid;
+    border-radius: 25px;
+}
+
+.phan-2 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: black;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px red solid;
+    border-bottom: 2px yellow solid;
+    border-right: 2px blue solid;
+    border-left: 2px blueviolet solid;
+    border-radius: 25px;
+}
+
+.phan-3 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px blue solid;
+    border-bottom: 2px blueviolet solid;
+    border-right: 2px yellow solid;
+    border-left: 2px red solid;
+    border-radius: 25px;
+}
+
+.phan-4a {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px yellow solid;
+    border-bottom: 2px red solid;
+    border-right: 2px blueviolet solid;
+    border-left: 2px blue solid;
+    border-radius: 25px;
+}
+
+.phan-4b {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px blueviolet solid;
+    border-bottom: 2px blue solid;
+    border-right: 2px red solid;
+    border-left: 2px yellow solid;
+    border-radius: 25px;
+}
+
+.phan-5 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px red solid;
+    border-bottom: 2px yellow solid;
+    border-right: 2px blue solid;
+    border-left: 2px blueviolet solid;
+    border-radius: 25px;
+}
+
+.phan-6 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px blue solid;
+    border-bottom: 2px blueviolet solid;
+    border-right: 2px yellow solid;
+    border-left: 2px blueviolet solid;
+    border-radius: 25px;
+}
+
+.phan-7 {
+    background: url('/img/backgroudnd5.jpeg');
+    background-size: cover;
+    color: #191970;
+    margin: 40px;
+    border-style: double;
+    border-top: 2px yellow solid;
+    border-bottom: 2px red solid;
+    border-right: 2px blue solid;
+    border-left: 2px blueviolet solid;
+    border-radius: 25px;
+}
+
+.ndphan-6 {
+    margin-bottom: 105px;
+    padding-top: 50px;
+}
+
+.image-p1 {
+    float: left;
+    width: 600px;
+    height: 480px;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+}
+
+.image-p2 {
+    float: left;
+    height: 320px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.image-p2-1 {
+    float: right;
+    height: 320px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.image-p3 {
+    float: left;
+    height: 256px;
+    width: 400px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.image-4a {
+    float: right;
+    width: 500px;
+    height: 500px;
+    border-top-right-radius: 20px;
+}
+
+.image-4b1 {
+    float: left;
+    ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 288px;
+    width: 400px;
+}
+
+.image-4b2 {
+    float: right;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 288px;
+    width: 400px;
+}
+
+.image-5 {
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 288px;
+    width: 600px;
+}
+
+.image-6a {
+    float: right;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    height: 426px;
+    width: 500px;
+}
+
+.image-6b {
+    float: right;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    height: 290px;
+    width: 290px;
+}
+
+.image-7 {
+    float: left;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    height: 480px;
+    width: 500px;
+}
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding-left: 40px;
+}
 
 .containerslogan {
-    width: 1352px;
+    width: 1500px;
     margin: 0 auto;
-    height: 30px;
+    height: 45px;
     padding-left: 45px;
 }
 
@@ -34,7 +356,7 @@ body {
     position: fixed;
     background-color: #fff;
     height: 45px;
-    width: 1355px;
+    width: 1356px;
     z-index: 1;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
@@ -46,26 +368,37 @@ a {
 }
 
 .nav {
-    padding-top: 0;
-    padding-bottom: 0;
     float: right;
     font-size: 20px;
-    padding-right: 75px;
+    padding-left: 150px;
+    width: 1000px;
     margin-block-start: 0;
     margin-block-end: 0;
-    height: 10px;
 }
 
 .nav-li {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
     font-family: "Cabin", sans-serif;
     cursor: pointer;
     display: inline-block;
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-li-a-1 {
+    width: 210px;
+}
+
+.nav-li-a-2 {
+    width: 210px;
+}
+
+.nav-li-a-3 {
+    width: 170px;
+}
+
+.nav-li-a-4 {
+    width: 115px;
 }
 
 .nav-li-a::after {
@@ -86,271 +419,20 @@ a {
 .slogan {
     float: left;
     font-family: "Pacifico", cursive;
-    font-size: 29px;
+    font-size: 28px;
     margin-left: 20px;
-    margin-top: 5px;
+    width: 290px;
+    padding-top: 6px;
 }
 
 .slogan a {
     color: #0984e3;
-    margin-left: 10px;
+    height: 40px;
 }
 
 .logo-icon {
     width: 30px;
     height: 30px;
-}
-
-.modau {
-    background-image: url('/img/backgroundmodau.jpg');
-    padding: 120px;
-    background-size: cover;
-}
-
-.b-1 {
-    background-color: black;
-}
-
-.tieude {
-    border-style: double;
-    border-top: 1px #F0F8FF solid;
-    border-bottom: 1px #F0F8FF;
-    border-right: 1px #F0F8FF solid;
-    border-left: 1px #F0F8FF;
-    border-radius: 25px;
-    background-color: black;
-}
-
-h1 {
-    font-size: 40px;
-    color: #FF4500;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: #00FFFF;
-}
-
-h3 {
-    text-align: left;
-    color: #00FA9A;
-    margin: 40px;
-}
-
-.a-1 {
-    color: black;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-image: url('https://getdrive.net/wp-content/uploads/2020/03/Mau-background-mau-xanh-ngoc-tuoi-mat.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    width: 1024px;
-    margin: auto;
-}
-
-.bocucchung {
-    background-color: white;
-    color: black;
-}
-
-.image-p1 {
-    float: right;
-    ;
-    width: 600px;
-    height: 506px;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-}
-
-.image-p2 {
-    float: left;
-    height: 346px;
-    width: 400px;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
-}
-
-.image-p2-1 {
-    float: right;
-    height: 346px;
-    width: 400px;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-}
-
-.image-p3 {
-    float: left;
-    height: 256px;
-    width: 400px;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
-}
-
-.image-4a {
-    float: right;
-    width: 500px;
-    height: 256px;
-    border-top-right-radius: 22px;
-}
-
-.image-4b1 {
-    float: left;
-    ;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
-    height: 314px;
-    width: 400px;
-}
-
-.image-4b2 {
-    float: right;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    height: 314px;
-    width: 400px;
-}
-
-.image-5 {
-    float: left;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
-    height: 314px;
-    width: 700px;
-}
-
-.image-6a {
-    float: left;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
-    height: 416px;
-    width: 500px;
-}
-
-.image-6b {
-    float: right;
-    border-top-right-radius: 22px;
-    border-bottom-left-radius: 22px;
-    height: 290px;
-    width: 290px;
-}
-
-.image-7 {
-    float: right;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    height: 507px;
-    width: 500px;
-}
-
-.phan-1 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-2 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-3 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-4a {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-4b {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-5 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-6 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
-}
-
-.phan-7 {
-    background-image: url('https://www.starnavi.io/media/blog/blue-tech-circuit-board-animated-background-video-graphic-design-hd-1920x1080_ewva7_dMceJJA.jpg');
-    background-size: cover;
-    color: white;
-    margin: 40px;
-    border-style: double;
-    border-top: 5px blueviolet solid;
-    border-bottom: 5px blue solid;
-    border-right: 2px blue solid;
-    border-left: 2px blueviolet solid;
-    border-radius: 25px;
 }
 
 footer {
