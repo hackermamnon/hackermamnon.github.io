@@ -370,8 +370,7 @@ a {
 .nav {
     float: right;
     font-size: 20px;
-    padding-left: 150px;
-    width: 1000px;
+    width: 1150px;
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -386,19 +385,23 @@ a {
 }
 
 .nav-li-a-1 {
-    width: 210px;
+    width: 190px;
 }
 
 .nav-li-a-2 {
-    width: 210px;
+    width: 200px;
 }
 
 .nav-li-a-3 {
-    width: 170px;
+    width: 160px;
 }
 
 .nav-li-a-4 {
-    width: 115px;
+    width: 110px;
+}
+
+.nav-li-a-5 {
+    width: 170px;
 }
 
 .nav-li-a::after {
