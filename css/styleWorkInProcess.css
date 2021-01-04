@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.container9 {
+    width: 550px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.containerslogan {
+    width: 1350px;
+    margin: 0 auto;
+    height: 30px;
+    padding-left: 45px;
+}
+
+.containerslogan:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    background-color: #fff;
+    height: 45px;
+    width: 1355px;
+    z-index: 3;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.intro {
+    background: url(/img/banner4.jpg);
+    background-size: cover;
+    height: 635px;
+    text-align: left;
+    padding-top: 400px;
+    border: #fff;
+}
+
+.container7 {
+    width: 220px;
+    height: 150px;
+}
+
+.intro .logo1 {
+    height: 140px;
+    width: 110px;
+    position: absolute;
+}
+
+.intro .logo2 {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 70px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 75px;
+    /* Độ cao dòng */
+}
+
+.intro p {
+    padding-top: 20px;
+    color: #f5f6fa;
+    font-size: 24px;
+    font-family: "Cabin", sans-serif;
+}
+
+.slogan {
+    float: left;
+    font-family: "Pacifico", cursive;
+    font-size: 27px;
+    margin-left: 20px;
+}
+
+.slogan a {
+    color: #0984e3;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.nav-li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Cabin", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.nav-li-a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.nav-li-a:hover::after {
+    width: 100%;
+    transition: width .2s;
+}
+
+.definition {
+    margin-top: 30px;
+    border: 1px;
+    border-color: #000;
+    text-align: center;
+}
+
+.definition h3 {
+    font-family: "Lobster", cursive;
+    font-size: 60px;
+    color: #1abc9c;
+}
+
+.ITdefinition {
+    font-size: 40px;
+    line-height: 29px;
+    font-family: "Cabin", sans-serif;
+}
+
+.paraIT {
+    margin-top: 10px;
+}
+
+.paraIT-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.container5 {
+    width: 550px;
+    float: right;
+    margin-top: 90px;
+    text-align: justify;
+}
+
+.container5:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title-1 {
+    color: #0e4438;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.container8:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e8d86;
+}
+
+.cardcover {
+    margin-left: 20px;
+}
+
+.card {
+    background: #fff;
+    display: inline;
+    height: 240px;
+    position: relative;
+    width: 220px;
+    float: left;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 220px;
+    grid-template-rows: 50px 220px;
+    grid-template-areas: "image""text";
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(212, 193, 193, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    margin: 30px;
+    background-color: #f4f4f4;
+}
+
+.card-image {
+    padding-top: 5px;
+    color: #0e4438;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-image2 {
+    padding-top: 5px;
+    color: #0e4438;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-image3 {
+    padding-top: 5px;
+    color: #0e4438;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 10px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text2 {
+    grid-area: text;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding-top: 10px;
+    height: 30px;
+    background-color: #1a2428;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1355px;
+    padding-left: 70px;
+}
+
+.container10 {
+    width: 800px;
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.container10:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pic1 {
+    width: 650px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.pic2 {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.pic3 {
+    float: right;
+    height: 300px;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.pic1h3 {
+    margin-left: 180px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e4438;
+}
+
+.container3 {
+    padding-left: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container4 {
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container12 {
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+.container12:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container6 {
+    width: 550px;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.container6:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container7 {
+    width: 600px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.container7:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container11 {
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.container11:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nd {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.75em;
+}
+
+.cau3 {
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+.hinhcau3 {
+    float: left;
+    margin-left: 170px;
+}
+
+.cau4 {
+    margin: 20px;
+}
+
+.hinhdiv {
+    float: right;
+    margin-right: 220px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.hinhclass {
+    float: right;
+}
+
+.li1 {
+    padding-bottom: 100px;
+}
+
+.hinhlink {
+    margin-left: 475px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.p1 {
+    padding-top: 15px;
+    padding-right: 150px;
+}
+
+.p2 {
+    padding-top: 125px;
+    padding-right: 150px;
+}
+
+.p3 {
+    padding-top: 127px;
+    padding-right: 50px;
+}
+
+.body1 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.body2 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.body3 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+
+/* cỦA nHẬT */
+
+h1 {
+    font-family: "Lobster", cursive;
+    font-size: 60px;
+    color: #1abc9c;
+    text-align: center;
+}
+
+.list {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+ol.gradient-list>li,
+ol.gradient-list>li::before {
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+
+
+/*** STYLE ***/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+ol.gradient-list {
+    counter-reset: gradient-counter;
+    list-style: none;
+    margin: 1.75rem 0;
+    padding-left: 1rem;
+}
+
+ol.gradient-list>li {
+    background: white;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    position: relative;
+}
+
+ol.gradient-list>li::before,
+ol.gradient-list>li::after {
+    background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
+    border-radius: 1rem 1rem 0 1rem;
+    content: '';
+    height: 3rem;
+    left: -1rem;
+    overflow: hidden;
+    position: absolute;
+    top: -1rem;
+    width: 3rem;
+}
+
+ol.gradient-list>li::before {
+    align-items: flex-end;
+    content: counter(gradient-counter);
+    color: #1d1f20;
+    display: flex;
+    font: 900 1.5em/1 'Montserrat';
+    justify-content: flex-end;
+    padding: 0.125em 0.25em;
+    z-index: 1;
+}
+
+ol.gradient-list>li:nth-child(10n+1):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+2):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+3):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+4):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+5):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 1) 0%, rgba(253, 220, 50, 1) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+6):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+7):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+8):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+9):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+ol.gradient-list>li:nth-child(10n+10):before {
+    background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+}
+
+ol.gradient-list>li+li {
+    margin-top: 2rem;
+}
