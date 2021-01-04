@@ -76,11 +76,6 @@ a {
     border: #fff;
 }
 
-.container7 {
-    width: 220px;
-    height: 150px;
-}
-
 .intro .logo1 {
     height: 140px;
     width: 110px;
@@ -379,8 +374,7 @@ footer {
 .container12 {
     width: 1230px;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container12:after {
@@ -389,10 +383,16 @@ footer {
     clear: both;
 }
 
+.picname {
+    margin-left: 330px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container6 {
     width: 550px;
     margin-left: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .container6:after {
@@ -412,7 +412,7 @@ li {
 }
 
 .container7 {
-    width: 600px;
+    width: 1100px;
     margin-left: 50px;
     padding-top: 30px;
 }
@@ -477,17 +477,17 @@ li {
 }
 
 .p1 {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 150px;
 }
 
 .p2 {
-    padding-top: 125px;
+    padding-top: 140px;
     padding-right: 150px;
 }
 
 .p3 {
-    padding-top: 127px;
+    padding-top: 137px;
     padding-right: 50px;
 }
 
@@ -618,4 +618,136 @@ ol.gradient-list>li:nth-child(10n+10):before {
 
 ol.gradient-list>li+li {
     margin-top: 2rem;
+}
+
+
+/* Web Điền */
+
+
+/* .chitietphanchia {
+    padding-top: 400px;
+} */
+
+.chitietphanchia2 img {
+    width: 850px;
+    height: 500px;
+    padding-left: 350px;
+}
+
+.chitietphanchia h2 {
+    font-size: 28px;
+}
+
+.khokhan1 h2 {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.lamquen1 {
+    width: 1050px;
+    padding: 30px;
+    padding-left: 150px;
+}
+
+.lamquen2 {
+    display: flex;
+    margin-left: 300px;
+}
+
+.lamquen2 img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+}
+
+.giaiphap2 {
+    width: 1050px;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.time1 {
+    width: 1050px;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.time2 {
+    margin-left: 300px;
+}
+
+.time2 img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.9);
+    margin-left: 40px;
+}
+
+.giaiquyet2 {
+    width: 1050px;
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+.giaiphap1 {
+    margin-top: 30px;
+}
+
+.dophangiai {
+    display: flex;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.dophangiai-1 {
+    margin-top: 50px;
+}
+
+.giaiphap3 {
+    padding-left: 150px;
+}
+
+.github2 img {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.githup {
+    display: flex;
+    padding-left: 150px;
+}
+
+.githup1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 40px;
+}
+
+.giaiphap4-1 {
+    width: 1050px;
+    padding-left: 150px;
+}
+
+.container13 {
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.container13:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title-2 {
+    color: #0e4438;
+    font-size: 28px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
